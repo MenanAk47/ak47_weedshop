@@ -1,4 +1,8 @@
 resource_manifest_version '44febabe-d386-4d18-afbe-5e627f4af937'
+name "ak47_usabledrugs"
+author "MenanAk47 (MenanAk47#3129)"
+description "Weedshop Job And Farming"
+version "1.0"
 
 ui_page('html/index.html') 
 
