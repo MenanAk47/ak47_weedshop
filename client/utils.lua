@@ -25,6 +25,10 @@ AddEventHandler('ak47_weedshop:openbossaction', function()
         menu.close()
         inBossMenu = false
     end)
+    TriggerEvent('society:openBossMenu', 'weedshop', function(data, menu)
+        menu.close()
+        inBossMenu = false
+    end)
 end)
 
 RegisterNetEvent('ak47_weedshop:notify')
